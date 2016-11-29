@@ -1,0 +1,6 @@
+This add-on is 100% written by TVaddons, all I did was change the URL to re-direct it to my notification file, and changed the name slightly. 
+
+Thanks everyone over at TVaddons for all of the great work you have all done-past, present and future. 
+
+
+For anyone else that might be reading this take a shot over to thier site at: http://www.tvaddons.ag and check out the repo at: http://fusion.tvaddons.ag/    

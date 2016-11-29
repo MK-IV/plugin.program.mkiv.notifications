@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.program.mkiv.notifications" version="1.0.0"
+       name="Notifications" provider-name="CamC">
+  <requires>
+  	<import addon="xbmc.python" version="2.1.0"/>
+  	<import addon="script.module.addon.common" optional="true" />
+  </requires>
+  <extension point="xbmc.python.script" library="default.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.service" library="service.py" start="startup">
+  </extension>
+  <extension point="xbmc.addon.metadata">
+  	<summary>MK-IV NEWS</summary>
+  	<description>Receive Important MK-IV Notifications. Unsubscribe within Add-on Settings.</description>
+  	<disclaimer></disclaimer>
+  	<language>en</language>
+  	<platform>all</platform>
+  	<forum>http://ares-project.uk</forum>
+  	<website>http://mkiv.ca/</website>
+  	<source></source>
+  	<email></email>
+  </extension>
+</addon>
