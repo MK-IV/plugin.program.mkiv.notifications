@@ -1,10 +1,9 @@
-import xbmc,string,logging,array
+import xbmc
 import common as Common #from common import * #import common
 ## ################################################## ##
 ## ################################################## ##
 # temp fix to stop twitter search error
 import xbmcaddon
-import xbmc
 
 if xbmc.getCondVisibility('System.HasAddon(script.service.twitter)'):
     search_string = xbmcaddon.Addon('script.service.twitter').getSetting('search_string')
